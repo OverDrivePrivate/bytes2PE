@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="bytes2pe">
+      <UniqueIdentifier>{24efe43c-9153-4ff4-98dd-4ca4397af409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bytes">
+      <UniqueIdentifier>{6dfb7d5f-0cee-49a8-a68e-e7bb068b6cda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bytes2pe.cpp">
+      <Filter>bytes2pe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bytes2pe.h">
+      <Filter>bytes2pe</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.hpp">
+      <Filter>bytes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
